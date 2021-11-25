@@ -43,7 +43,7 @@ export default function Layout(props) {
       <Container className="m-auto mt-5">
         <main>{props.children}</main>
       </Container>
-      <Navbar bg="light">
+      <Navbar bg="light" className="mt-4">
         <Container>
           <small className="mx-auto my-4 text-center text-muted">
             <a href="https://github.com/r-spacex/SpaceX-API" target="_blank">SpaceX API on Github</a>
