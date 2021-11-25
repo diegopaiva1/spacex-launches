@@ -12,3 +12,10 @@ hr {
 .round {
   border-radius: 100%;
 }
+
+.flex-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

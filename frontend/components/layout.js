@@ -5,7 +5,7 @@ import { Navbar, Container } from 'react-bootstrap'
 
 export default function Layout(props) {
   return (
-    <>
+    <div className="flex-wrapper">
      <Head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
         <link rel="icon" href="/favicon.ico" />
@@ -40,7 +40,7 @@ export default function Layout(props) {
           </Navbar.Brand>
         </Container>
       </Navbar>
-      <Container className="m-auto my-5">
+      <Container className="m-auto mt-5">
         <main>{props.children}</main>
       </Container>
       <Navbar bg="light">
@@ -58,6 +58,6 @@ export default function Layout(props) {
           </small>
         </Container>
       </Navbar>
-    </>
+    </div>
   )
 }
