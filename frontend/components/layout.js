@@ -39,6 +39,8 @@ export default function Layout(props) {
         <Container>
           <small className="mx-auto my-4 text-center text-muted">
             <a href="https://github.com/r-spacex/SpaceX-API" target="_blank">SpaceX API on Github</a>
+            {' '}|{' '}
+            <a href="https://github.com/diegopaiva1/spacex-launches" target="_blank">Source code on Github</a>
             <br/>
             <br/>
             "We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with
@@ -46,7 +48,6 @@ export default function Layout(props) {
             The names SpaceX as well as related names, marks, emblems and images are registered trademarks of their respective owners."
             <br/>
             <br/>
-            <a href="https://github.com/diegopaiva1/spacex-launches" target="_blank">Source code on Github</a>
           </small>
         </Container>
       </Navbar>
