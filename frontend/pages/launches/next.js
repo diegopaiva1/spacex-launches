@@ -25,7 +25,7 @@ export default function Next(props) {
         </Accordion>
       <h4>
         <Link href="/">
-          <a><i class="bi bi-arrow-left"></i> Back to launches</a>
+          <a><i className="bi bi-arrow-left"></i> Back to launches</a>
         </Link>
       </h4>
     </Layout>
