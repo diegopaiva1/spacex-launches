@@ -20,7 +20,7 @@ export default function Upcoming(props) {
       <hr/>
       <h1>Upcoming launches</h1>
       <Accordion className="my-5">
-          {Object.keys(launchesByYear).map((year) =>
+        {Object.keys(launchesByYear).map((year) =>
           <div key={year} className="my-5">
             <h2>{ year }</h2>
             <hr/>
@@ -28,7 +28,7 @@ export default function Upcoming(props) {
               <LaunchInfo key={launch.id} launch={launch}></LaunchInfo>
             )}
           </div>
-          )}
+        )}
         </Accordion>
       <h4>
         <Link href="/">
