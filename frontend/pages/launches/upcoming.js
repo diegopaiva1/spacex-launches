@@ -21,7 +21,7 @@ export default function Upcoming(props) {
       <h1>Upcoming launches</h1>
       <Accordion className="my-5">
           {Object.keys(launchesByYear).map((year) =>
-          <div className="my-5">
+          <div key={year} className="my-5">
             <h2>{ year }</h2>
             <hr/>
             {launchesByYear[year].map((launch) =>
