@@ -35,12 +35,12 @@ export default function LaunchInfo(props) {
                 <Alert.Heading className="text-center"><u>Flight failed!</u></Alert.Heading>
                   {launch.failures.map((failure, index) =>
                     <div key={index} className="text-align: left">
+                      <hr/>
                       <ul>
                         <li><strong>Altitude</strong>: { failure.altitude || 'Unknown' } km</li>
                         <li><strong>Seconds elapsed</strong>: { failure.time }</li>
                         <li><strong>Reason</strong>: { failure.reason.charAt(0).toUpperCase() + failure.reason.slice(1) }</li>
                       </ul>
-                    <hr/>
                     </div>
                   )}
               </Alert>}
