@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <Layout title="SpaceX launches">
+    <Layout title="SpaceX launches" description="Index page for accessing next, upcoming, latest and past launches">
       <h1>🚀 Launches</h1>
       <hr/>
       <ul>
