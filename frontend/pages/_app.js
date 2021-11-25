@@ -1,4 +1,3 @@
-import "nprogress/nprogress.css";
 import '../public/stylesheets/globals.css';
 import NextNProgress from 'nextjs-progressbar';
 
