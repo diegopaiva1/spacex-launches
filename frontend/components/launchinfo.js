@@ -7,7 +7,7 @@ export default function LaunchInfo(props) {
   return (
     <Accordion.Item key={ launch.id } eventKey={ launch.id }>
       <Accordion.Header>
-        { launch.tbd ? 'To be determined' : new Date(launch.date_utc).toUTCString() } (<strong>{ launch.name }</strong>)
+        { launch.tbd ? 'To be determined' : new Date(launch.date_utc).toUTCString() }
       </Accordion.Header>
       <Accordion.Body>
         <div style={{ display: "flex", justifyContent: "center" }}>
