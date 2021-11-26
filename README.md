@@ -6,7 +6,7 @@ Simple website for showing next, latest, upcoming and past launches from SpaceX.
 
 ## Modules
 
-The project is divided into back-end (built with **Node.js**) and frontend (built with **React** and **Next.js**).
+The project is divided into back-end (built with **Node.js**) and front-end (built with **React** and **Next.js**).
 
 ### Back-end
 
