@@ -20,7 +20,7 @@ This is the website. It consumes the back-end API and renders the content in a c
 
 You only need a few commands to preview it in localhost.
 
-## Install dependencies
+### Install dependencies
 
 ```text
 cd backend && npm install
@@ -28,7 +28,7 @@ cd ..
 cd frontend && npm install
 ```
 
-## Run
+### Run
 
 Open a new terminal window and run the back-end server from the `backend` directory:
 
@@ -57,3 +57,7 @@ event - compiled successfully in 493 ms (511 modules)
 ```
 
 Now go to `http://localhost:3000`.
+
+## Testing
+
+Tests available under the `backend/test` folder. Run `npm run test`.
