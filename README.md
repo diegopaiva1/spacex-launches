@@ -30,7 +30,13 @@ cd frontend && npm install
 
 ## Run
 
-On the `frontend` directory:
+Open a new terminal window and run the back-end server from the `backend` directory:
+
+```text
+npm run start
+```
+
+Open another terminal window and run from `frontend` directory:
 
 ```text
 npm run dev
