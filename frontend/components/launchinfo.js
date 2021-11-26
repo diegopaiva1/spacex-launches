@@ -6,7 +6,9 @@ export default function LaunchInfo(props) {
 
   return (
     <Accordion.Item key={ launch.id } eventKey={ launch.id }>
-      <Accordion.Header>{ launch.tbd ? 'To be determined' : new Date(launch.date_utc).toUTCString() }</Accordion.Header>
+      <Accordion.Header>
+        { launch.tbd ? 'To be determined' : new Date(launch.date_utc).toUTCString() } (<strong>{ launch.name }</strong>)
+      </Accordion.Header>
       <Accordion.Body>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <Image
@@ -38,7 +40,7 @@ export default function LaunchInfo(props) {
                       <hr/>
                       <ul>
                         <li><strong>Altitude</strong>: { failure.altitude || 'Unknown' } km</li>
-                        <li><strong>Seconds elapsed</strong>: { failure.time }</li>
+                        <li><strong>Seconds elapsed</strong>: { failure.time || 'Unknown' }</li>
                         <li><strong>Reason</strong>: { failure.reason.charAt(0).toUpperCase() + failure.reason.slice(1) }</li>
                       </ul>
                     </div>
