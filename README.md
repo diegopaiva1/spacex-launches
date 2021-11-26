@@ -1,4 +1,6 @@
 # SpaceX launches
+![GitHub](https://img.shields.io/github/license/diegopaiva1/spacex-launches)
+![GitHub repo size](https://img.shields.io/github/repo-size/diegopaiva1/spacex-launches)
 
 Simple website for showing next, latest, upcoming and past launches from SpaceX.
 
