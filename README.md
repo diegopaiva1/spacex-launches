@@ -12,7 +12,7 @@ The project is divided into back-end (built with **Node.js**) and front-end (bui
 
 ### Back-end
 
-This module simply perform requests to the [SpaceX API](https://github.com/r-spacex/SpaceX-API) and return them to the client.
+This module simply performs requests to the [SpaceX API](https://github.com/r-spacex/SpaceX-API) and return them to the client.
 
 ### Front-end
 
